@@ -1,4 +1,4 @@
 # webhook and pull rerquest test
-tringer a build 4 
+this is to test a webhook  
 
-pull request test
+Also it is used to find out how pull request works
