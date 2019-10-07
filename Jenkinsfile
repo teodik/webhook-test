@@ -9,9 +9,6 @@ pipeline {
            steps{
                echo "$BUILD_URL"
                echo "$props"
-               sh '''
-               curl -u teodik:Teo@27may1979 --insecure "https://github.com/api/repos/teodik/webhook-test/commits/$GIT_COMMIT/comments" -H "Content-Type: application/json" -X POST -d $props 
-               '''
            }
        }
    }
